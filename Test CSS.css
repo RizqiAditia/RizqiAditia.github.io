@@ -1,0 +1,22 @@
+body
+{background-image:url("Bahan\ 2.jpg");
+color:#fff;
+background-size:cover;
+background-repeat:no-repeat;
+background-attachment: fixed;}
+
+.Kuda
+{background:orange;}
+
+p
+{font-style: italic;
+font-weight: 800;
+color:skyblue ;
+font-size: large;}
+
+.Keledai
+{color: springgreen;}
+
+.Baju
+{background: steelblue;
+text-align: center;}
