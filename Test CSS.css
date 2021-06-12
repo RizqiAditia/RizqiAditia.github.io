@@ -1,10 +1,43 @@
-body
-{background-image:url("Bahan\ 2.jpg");
-color:#fff;
-background-size:cover;
-background-repeat:no-repeat;
-background-attachment: fixed;}
-
+#videoBG {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    position:fixed;
+    z-index: -1;
+}
+@media (min-aspect-ratio: 20/9) {
+    #videoBG {
+        width:100%;
+        height: auto;
+    }
+}
+@media (min-aspect-ratio: 20/9) {
+    #videoBG {
+        width:auto;
+        height: 100%;
+    }
+}
+@media (max-width: 767px) {
+    #videoBG {
+        display:none;
+    }
+    body {
+        background: url('Backup.jpg');
+        background-size:contain;
+    }
+    table {
+        width:100%
+    }
+}
+@media (max-height: 562px) {
+    #videoBG {
+        display:none;
+    }
+    body {
+        background: url('Backup.jpg');
+        background-size:contain;
+    }
+}
 .Kuda
 {background:orange;}
 
@@ -20,3 +53,16 @@ font-size: large;}
 .Baju
 {background: steelblue;
 text-align: center;}
+
+/*Gallery*/
+.title
+{padding-top: 75;
+text-align: center;
+color:skyblue;
+font-weight: 800;}
+
+.Yuri
+{background-color: cornsilk;}
+
+#Bebas
+{padding-top: 75;}
